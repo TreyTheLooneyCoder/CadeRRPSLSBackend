@@ -1,0 +1,6 @@
+@CadeRRPSLSProject_HostAddress = http://localhost:5213
+
+GET {{CadeRRPSLSProject_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
