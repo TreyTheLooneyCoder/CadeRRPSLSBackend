@@ -18,11 +18,11 @@ namespace CadeRRPSLSProject.Controllers
         }
 
         [HttpGet]
-        [Route("RPS/{userChoice}")]
+        [Route("RPS")]
 
-        public string lizardSpock(string userChoice)
+        public string lizardSpock()
         {
-            return _rPSLSServices.lizardSpock(userChoice);
+            return _rPSLSServices.lizardSpock();
         }
     }
 }

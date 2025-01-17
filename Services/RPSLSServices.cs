@@ -2,7 +2,7 @@ namespace CadeRRPSLSProject.Services
 {
     public class RPSLSServices
     {
-        public string lizardSpock(string comChoice)
+        public string lizardSpock()
         {
             Random rng = new Random();
             int comChoiceNum = rng.Next(6);
@@ -10,28 +10,21 @@ namespace CadeRRPSLSProject.Services
             switch(comChoiceNum)
             {
                 case 1: 
-                    comChoice = "Rock";
-                    break;
-                
+                    return "Rock";
+                   
                 case 2: 
-                    comChoice = "Paper";
-                    break;
+                    return "Paper";
                 
                 case 3: 
-                    comChoice = "Scissors";
-                    break;
+                    return "Scissors";
 
                 case 4: 
-                    comChoice = "Lizard";
-                    break;
+                    return "Lizard";
 
-                case 5: 
-                    comChoice = "Spock";
-                    break;
+                default: 
+                    return "Spock";
+                
             }
-
-            
-            return comChoice;
         }
     }
 }
