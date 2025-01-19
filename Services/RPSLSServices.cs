@@ -10,19 +10,19 @@ namespace CadeRRPSLSProject.Services
             switch(comChoiceNum)
             {
                 case 1: 
-                    return "Rock";
+                    return "rock";
                    
                 case 2: 
-                    return "Paper";
+                    return "paper";
                 
                 case 3: 
-                    return "Scissors";
+                    return "scissors";
 
                 case 4: 
-                    return "Lizard";
+                    return "lizard";
 
                 default: 
-                    return "Spock";
+                    return "spock";
                 
             }
         }
